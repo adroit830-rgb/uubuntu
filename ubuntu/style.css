@@ -1,0 +1,57 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Logo styling */
+.logo {
+    width: 120px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Headings */
+h1 {
+    color: #dd4814;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 40px;
+    color: #333;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ccc; /* Adds vertical and horizontal lines */
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #e5e5e5;
+    color: #333;
+}
+
+/* Optional: Add hover effect for rows */
+tr:hover {
+    background-color: #f1f1f1;
+}
